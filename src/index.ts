@@ -3,6 +3,7 @@ import { startServer } from 'src/server'
 import config from 'src/config'
 
 logger.info('Hello info!')
+console.log('Test')
 
 startServer({
     port: config.options.port,
